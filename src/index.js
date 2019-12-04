@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/',(req,res) => {
-    res.send('THIS IS BULLSHIT')
+    res.send('THIS IS BULLSHIT !')
 })
 
 app.listen(port , () => {
